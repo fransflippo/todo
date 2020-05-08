@@ -1,0 +1,24 @@
+GET http://localhost:9080/lists
+
+###
+
+POST http://localhost:9080/lists
+Content-Type: application/json
+
+{
+  "name": "Weekend plans"
+}
+
+###
+
+GET http://localhost:9080/lists/db2a461d-709b-4bb5-bbb8-798cd4a33d0b/items
+
+###
+
+POST http://localhost:9080/lists/db2a461d-709b-4bb5-bbb8-798cd4a33d0b/items
+Content-Type: application/json
+
+{
+  "text": "Stay inside"
+}
+
